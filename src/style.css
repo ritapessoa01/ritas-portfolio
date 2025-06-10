@@ -1,13 +1,14 @@
 :root {
   --primary-color: #efb6c8;
-  --secondary-color: #fff2f2;
-  --background-color: #8174a0;
+  --secondary-color: #5e507e;
+  --front-background-color: #8174a0;
+  --body-background-color: #fff2f2;
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: var(--secondary-color);
+  background-color: var(--body-background-color);
 }
 
 h1 {
@@ -18,12 +19,12 @@ h1 {
   line-height: 110px;
 }
 
-h3 {
+h2 {
   font-weight: 400;
   color: white;
 }
 
-h2 {
+h3 {
   font-size: 60px;
   font-weight: 400;
   color: white;
@@ -33,15 +34,16 @@ h4 {
   font-size: 28px;
   margin: 20px;
   font-weight: 600;
+  color: var(--secondary-color);
 }
 
 .main-page-box {
-  background-color: var(--background-color);
+  background-color: var(--front-background-color);
 }
 
 .main-page-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 60px;
 }
 
@@ -54,7 +56,8 @@ h4 {
 }
 
 .main-page-grid {
-  margin: 70px;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 .project-images {
@@ -64,7 +67,7 @@ h4 {
 }
 
 i {
-  background-color: var(--background-color);
+  background-color: var(--front-background-color);
   padding: 20px;
   font-size: 40px;
   margin: 40px;
