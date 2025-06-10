@@ -1,10 +1,77 @@
+:root {
+  --primary-color: #efb6c8;
+  --secondary-color: #fff2f2;
+  --background-color: #8174a0;
+  --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--secondary-color);
+}
+
 h1 {
-  color: brown;
+  color: var(--primary-color);
   font-family: "Rajdhani", sans-serif;
-  font-size: 60px;
-  font-weight: 600;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 110px;
 }
 
 h3 {
-  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 400;
+  color: white;
+}
+
+h4 {
+  font-size: 28px;
+  margin: 20px;
+  font-weight: 600;
+}
+
+.main-page-box {
+  background-color: var(--background-color);
+}
+
+.main-page-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px;
+}
+
+.main-page-intro {
+  margin-top: 200px;
+}
+
+.coding-illustration {
+  width: 670px;
+}
+
+.main-page-grid {
+  margin: 70px;
+}
+
+.project-images {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+i {
+  background-color: var(--background-color);
+  padding: 20px;
+  font-size: 40px;
+  margin: 40px;
+  border-radius: 20px;
+}
+.socials-containers {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
 }
