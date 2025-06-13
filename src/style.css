@@ -16,12 +16,13 @@ h1 {
   font-family: "Rajdhani", sans-serif;
   font-size: 120px;
   font-weight: 700;
-  line-height: 110px;
+  line-height: 120px;
 }
 
 h2 {
-  font-weight: 400;
-  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  color: var(--secondary-color);
 }
 
 h3 {
@@ -52,7 +53,7 @@ h4 {
   width: 670px;
 }
 
-.project-images {
+.preview-images {
   width: 500px;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
@@ -84,7 +85,7 @@ i {
     font-size: 90px;
   }
 
-  h2 {
+  .main-page-into h2 {
     font-size: 20px;
   }
 
@@ -117,4 +118,27 @@ i {
   h4 {
     font-size: 25px;
   }
+}
+
+.page-title {
+  text-align: center;
+  background-color: var(--front-background-color);
+  margin-top: 60px;
+  padding: 15px;
+  font-size: 90px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: #8174a0;
+}
+
+.about-content {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  padding: 20px;
+  font-size: 20px;
 }
