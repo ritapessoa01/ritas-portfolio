@@ -94,6 +94,21 @@ p {
   font-size: 20px;
 }
 
+.project-button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 20px;
+  display: block;
+  margin: 0px 50px;
+  padding: 10px;
+}
+
+.project-button:hover {
+  background-color: var(--front-background-color);
+  color: var(--primary-color);
+}
+
 .container {
   margin-top: 100px;
 }
@@ -101,6 +116,11 @@ p {
 .project-image {
   box-shadow: var(--box-shadow);
   border-radius: 10px;
+}
+
+.project-outro {
+  font-size: 35px;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 992px) {
@@ -144,6 +164,10 @@ p {
 @media (max-width: 768px) {
   .project-images {
     width: 80%;
+  }
+
+  .project-outro {
+    font-size: 28px;
   }
 }
 
