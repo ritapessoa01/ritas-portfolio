@@ -11,6 +11,42 @@ body {
   background-color: var(--body-background-color);
 }
 
+.nav-bar {
+  background-color: #efb6c8;
+}
+
+.logo {
+  max-height: 50px;
+  margin: 15px 20px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 20px;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  opacity: 85%;
+  line-height: 80px;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--front-background-color);
+}
+
+.active {
+  font-weight: 700;
+  opacity: 100%;
+}
+
 h1 {
   color: var(--primary-color);
   font-family: "Rajdhani", sans-serif;
@@ -46,7 +82,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 120px 90px;
+  padding: 55px 80px;
 }
 
 .coding-illustration {
@@ -74,11 +110,9 @@ i {
 .page-title {
   text-align: center;
   background-color: var(--front-background-color);
-  margin-top: 60px;
   padding: 15px;
   font-size: 90px;
   margin: 0 auto;
-  margin-top: 60px;
   background-color: #8174a0;
 }
 
@@ -109,13 +143,8 @@ p {
   color: var(--primary-color);
 }
 
-.container {
-  margin-top: 100px;
-}
-
 .project-image {
   box-shadow: var(--box-shadow);
-  border-radius: 10px;
 }
 
 .project-outro {
@@ -172,6 +201,12 @@ a {
     margin: 90px 0 auto;
   }
 
+  .project-image {
+    width: 85%;
+    margin: auto;
+    display: block;
+  }
+
   .reverse-items {
     flex-direction: column-reverse;
   }
@@ -192,6 +227,19 @@ a {
 }
 
 @media (max-width: 578px) {
+  .logo {
+    max-height: 35px;
+  }
+
+  nav a {
+    font-size: 13px;
+    line-height: 70px;
+  }
+
+  nav li {
+    padding: 10px;
+  }
+
   i {
     font-size: 20px;
     padding: 15px;
