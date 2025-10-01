@@ -16,8 +16,8 @@ body {
 }
 
 .logo {
-  max-height: 50px;
-  margin: 15px 20px;
+  max-height: 40px;
+  margin: 10px 30px;
 }
 
 nav ul {
@@ -28,13 +28,13 @@ nav ul {
 
 nav li {
   display: inline;
-  padding: 20px;
+  padding: 13px;
 }
 
 nav a {
   color: white;
   opacity: 85%;
-  line-height: 80px;
+  line-height: 60px;
   transition: all 150ms ease-in-out;
 }
 
@@ -164,12 +164,12 @@ p {
 
 a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #a57ffd;
 }
 
 footer {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (max-width: 992px) {
@@ -231,13 +231,14 @@ footer {
 }
 
 @media (max-width: 578px) {
-  .logo {
-    max-height: 35px;
+  .nav-bar .logo {
+    max-height: 30px;
+    margin: 10px 20px;
   }
 
   nav a {
     font-size: 13px;
-    line-height: 70px;
+    line-height: 50px;
   }
 
   nav li {
