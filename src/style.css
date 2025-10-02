@@ -89,6 +89,18 @@ h4 {
   width: 670px;
 }
 
+.intro-text {
+  margin-top: 50px;
+  font-size: 22px;
+  background-color: #7562a13c;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+strong {
+  color: #5e507e;
+}
+
 .preview-images {
   width: 500px;
   border-radius: 10px;
@@ -175,6 +187,7 @@ a {
 footer {
   font-size: 18px;
   margin-bottom: 45px;
+  padding: 5px;
 }
 
 @media (max-width: 992px) {
@@ -249,8 +262,20 @@ footer {
     line-height: 50px;
   }
 
+  nav ul {
+    margin-right: 10px;
+  }
+
   nav li {
     padding: 10px;
+  }
+
+  .main-page-into h1 {
+    line-height: 90px;
+    margin: 20px 0px;
+  }
+  .intro-text {
+    font-size: 18px;
   }
 
   i {
@@ -286,7 +311,7 @@ footer {
   .project-image,
   .project-button {
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
   }
 
   .contact-box {
