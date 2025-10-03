@@ -195,7 +195,7 @@ footer {
     display: block;
   }
 
-  .main-page-into {
+  .main-page-intro {
     text-align: center;
     padding: 120px 0px;
   }
@@ -204,7 +204,7 @@ footer {
     font-size: 90px;
   }
 
-  .main-page-into h2 {
+  .main-page-intro h2 {
     font-size: 20px;
   }
 
@@ -270,7 +270,11 @@ footer {
     padding: 10px;
   }
 
-  .main-page-into h1 {
+  .main-page-intro {
+    padding: 100px 0px;
+  }
+
+  .main-page-intro h1 {
     line-height: 90px;
     margin: 20px 0px;
   }
